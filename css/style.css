@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+
+body{
+  background-image: url("../images/background-random-quotes.jpg") ;
+  background-size: cover;
+}
+
+.box{
+  position:absolute;
+  width: 30%;
+  height: 100px;
+  top:135px;
+  left:355px;
+  transform: rotate(-4.2deg);
+  font-family: 'Coming Soon', cursive;
+  font-size: 1.2em;
+  color:#70716E;
+  font-weight:bold;
+  text-align:left;
+  opacity:0.9;
+}
+
+.img-quote{
+  display: block;
+  width:50%;
+  height:auto;
+  margin: 0 auto;
+}
+
+.random-quote{
+  position:absolute;
+  font-size: 3.5em;
+  left: 720px;
+  top: 520px;    
+}
+
+.twit-quote{
+  position:absolute;
+  font-size: 3.5em;
+  left: 320px;
+  top: 43px;
+}
+
+.linked-btn{
+  color:#A17244;
+}
+
+.linked-btn:hover{
+  color:white;
+}
+footer {
+  background-color:#E5E5E5;
+  font-size:13px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+
+}
+
+
+ @media screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+
+  .twit-quote {
+    position: absolute;
+    left: 45px;
+    top: 240px;
+  }
+
+  .random-quote {
+    position: absolute;
+    left: 635px;
+    top: 945px;
+  }
+
+  .box {
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    top: 360px;
+    left: 115px;
+    font-size: 1.8em;
+  }
+
+  .img-quote {
+    margin-left: -30px;
+    padding-top: 160px;
+    display: block;
+    width: 120%;
+    height: 120%;
+
+  }
+
+
+}
